@@ -43,7 +43,7 @@ footer {
 }
 
 #dish-detail img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     border-radius: 5px;
 }
@@ -52,7 +52,7 @@ footer {
     margin-top: 0;
 }
 
-.prova {
+.menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,6 +60,11 @@ footer {
     margin-bottom: 100px;
 }
 
-.prova2 {
+.menuDentro {
     width: 100%;
+}
+
+.card {
+    margin-top: 20px;
+    text-align: center;
 }
