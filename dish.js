@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (selectedDish) {
         const dishContent = `
             <h2>${selectedDish.name}</h2>
-            <img src="assets/${selectedDish.image.replace('.jpg', '.png')}" alt="${selectedDish.name}" class="img-fluid mb-3">
+            <img src="assets/${selectedDish.image}" alt="${selectedDish.name}" class="img-fluid mb-3">
             <p>${selectedDish.description}</p>
             <p><strong>Precio: $${selectedDish.price.toFixed(2)}</strong></p>
         `;

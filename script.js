@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log('El sitio está listo');
     
     const dishes = [
-        { name: 'Paella', price: 15.99, description: 'La paella es un plato tradicional de Valencia, hecho con arroz, mariscos, pollo y verduras.', image: 'paella.jpg' },
-        { name: 'Tortilla Española', price: 8.99, description: 'La tortilla española es una tortilla de patatas y cebolla, muy popular en toda España.', image: 'tortilla.jpg' },
-        { name: 'Gazpacho', price: 6.99, description: 'El gazpacho es una sopa fría de tomate, pepino, pimiento y ajo, originaria de Andalucía.', image: 'gazpacho.jpg' },
-        { name: 'Churros', price: 4.99, description: 'Los churros son una masa frita, espolvoreada con azúcar, muy popular en España.', image: 'churros.jpg' }
+        { name: 'Paella', price: 15.99, description: 'La paella es un plato tradicional de Valencia, hecho con arroz, mariscos, pollo y verduras.', image: 'paella.png' },
+        { name: 'Tortilla Española', price: 8.99, description: 'La tortilla española es una tortilla de patatas y cebolla, muy popular en toda España.', image: 'tortilla.png' },
+        { name: 'Gazpacho', price: 6.99, description: 'El gazpacho es una sopa fría de tomate, pepino, pimiento y ajo, originaria de Andalucía.', image: 'gazpacho.png' },
+        { name: 'Churros', price: 4.99, description: 'Los churros son una masa frita, espolvoreada con azúcar, muy popular en España.', image: 'churros.png' }
     ];
 
     const dishList = document.getElementById('dish-list');

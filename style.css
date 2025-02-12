@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     text-align: center;
+    height: 750px;
 }
 
 header {
@@ -20,6 +21,7 @@ h1 {
 
 main {
     padding: 1rem;
+    height: 650px;
 }
 
 section {
@@ -48,4 +50,16 @@ footer {
 
 #dish-detail h2 {
     margin-top: 0;
+}
+
+.prova {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.prova2 {
+    width: 100%;
 }
