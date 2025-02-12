@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="card-body text-center">
                     <h2 class="card-title">${selectedDish.name}</h2>
                     <p class="card-text">${selectedDish.description}</p>
-                    <p class="card-text"><strong>Precio: $${selectedDish.price.toFixed(2)}</strong></p>
+                    <p class="card-text"><strong>Precio: €${selectedDish.price.toFixed(2)}</strong></p>
                     <button id="back-button" class="btn btn-primary mt-3">Torna indietro</button>
                 </div>
             </div>

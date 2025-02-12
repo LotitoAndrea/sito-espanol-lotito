@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const span = document.createElement('span');
         span.className = 'badge badge-primary badge-pill';
-        span.textContent = `$${dish.price.toFixed(2)}`;
+        span.textContent = `€${dish.price.toFixed(2)}`;
 
         listItem.appendChild(span);
         dishList.appendChild(listItem);
