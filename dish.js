@@ -4,13 +4,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (selectedDish) {
         const dishContent = `
-            <div class="card mx-auto" style="width: 24rem;">
+            <div class="card mx-auto" style="width: 36rem;">
                 <img src="assets/${selectedDish.image}" class="card-img-top" alt="${selectedDish.name}">
                 <div class="card-body text-center">
                     <h2 class="card-title">${selectedDish.name}</h2>
                     <p class="card-text">${selectedDish.description}</p>
                     <p class="card-text"><strong>Precio: €${selectedDish.price.toFixed(2)}</strong></p>
-                    <button id="back-button" class="btn btn-primary mt-3">Torna indietro</button>
+                    <h3>Ingredientes</h3>
+                    <ul class="list-group list-group-flush">
+                        ${selectedDish.ingredients.map(ingredient => `<li class="list-group-item">${ingredient}</li>`).join('')}
+                    </ul>
+                    <button id="back-button" class="btn btn-primary mt-3">Retrocede</button>
                 </div>
             </div>
         `;
